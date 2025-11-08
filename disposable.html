@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAI DISPOSABLE PRODUCTS</title>
+  <link rel="stylesheet" href="disposable_style.css" />
+</head>
+<body>
+  <header>
+    <h1>SAI DISPOSABLE PRODUCTS</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#cart">Cart</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Products Section -->
+    <section id="products">
+      <h2>Eco-Friendly & Disposable Products</h2>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cartItems"></ul>
+      <p id="cartTotal">Total: ₹0</p>
+      <button id="purchaseBtn" class="purchase-btn">Proceed to Checkout</button>
+    </section>
+
+    <!-- Checkout Section (Hidden initially) -->
+    <!-- Checkout Section (Hidden initially) -->
+<section id="checkout" class="checkout-section hidden">
+  <h2>Checkout</h2>
+  <form id="checkoutForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" placeholder="Enter delivery address" required></textarea>
+
+    <label for="payment">Payment Method:</label>
+    <select id="payment" name="payment" required>
+      <option value="">Select Payment Method</option>
+      <option value="cod">Cash on Delivery</option>
+      <option value="upi">UPI</option>
+      <option value="card">Credit/Debit Card</option>
+    </select>
+
+    <button type="submit" class="confirm-btn">Confirm Purchase</button>
+  </form>
+  <p id="confirmationMsg" class="hidden">✅ Thank you! Your order has been placed successfully.</p>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>For bulk orders or custom branding, email us at 
+         <a href="mailto:orders@saidisposables.com">orders@saidisposables.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> SAI DISPOSABLE PRODUCTS | Go Plastic-Free</p>
+  </footer>
+
+  <script src="disposable_script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIP</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="homepage.css" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <div class="img-fluid" id="header"></div>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-collapse" style="background-color: #214971;">
+    <div class="container-fluid">
+    
+       <div class="global"> Global Sanitation Portal </div>     
+    </div>
+  </nav>
+       <section class="main-section">
+ 
+    <div class="image-container" id="carousel" tabindex="0" aria-roledescription="carousel">
+      <div class="slides-wrapper" id="slidesWrapper">
+       
+        <div class="slide" data-title=" Major Concerns" data-sub="India faces a severe sanitation crisis with significant public health, environmental, and social consequences">
+          <img src="image5.jpg" alt="Junk1">
+        </div>
+        <div class="slide" data-title="Lack of Waste Facilities " data-sub="Lack of adequate and appropriate toilets used to contribute to the main reason for open defecation in India">
+          <img src="image2.jpg"  >
+        </div>
+        <div class="slide" data-title="No Proper Knowledge" data-sub="Open defecation and communicable waterborne disease are highly concerning in India">
+          <img src="image3.jpg" alt="Open defecation and communicable waterborne disease are highly concerning in India">
+        </div>
+        <div class="slide" data-title="Youth Faces the Problem" data-sub="Poor sanitation has profound impacts on children's health and development.">
+          <img src="image4.jpg" alt="Poor sanitation has profound impacts on children's health and development.">
+        </div>
+      </div>
+
+      <div class="image-overlay" id="caption">
+        <h3 id="captionTitle">Major Concerns</h3>
+        <p id="captionSub">India faces a severe sanitation crisis with significant public health, environmental, and social consequences</p>
+      </div>
+      
+
+     
+      <button class="nav-button left" id="prevBtn" aria-label="Previous slide">&#10094;</button>
+      <button class="nav-button right" id="nextBtn" aria-label="Next slide">&#10095;</button>
+
+     
+      <div class="dots" id="dots"></div>
+    </div>
+
+   
+    <div class="cards-container" id="cards">
+      <div class="card" data-target="1" id="card1-hover">
+        <div class="icon">&#x1F4D8;</div>
+        <h4>  Our Agenda</h4>
+        <div class="hover-text"> 
+India faces a deep-rooted challenge: waste mismanagement and unsanitary public spaces. According to the World Bank, India generates over 62 million tonnes of waste every year, and a large portion of it ends up on streets, drains, and open areas, posing severe health and environmental risks.
+This portal was created to change that.
+
+Our agenda is simple yet powerful:
+to make every citizen a participant in India's cleanliness revolution.
+Every report made here is a step toward a cleaner, healthier, and more responsible India.
+Our mission is to bridge the gap between citizens and authorities, ensuring that sanitation problems are seen, tracked, and solved efficiently.
+
+We believe that change begins with awareness and action.
+If every Indian takes a small step — a photo, a report, or a simple act of responsibility — together we can transform India from being among the world's most polluted countries to one of the cleanest and most sustainable nations on the planet.
+
+🧹 “Clean surroundings don't start with systems, they start with citizens.”</div>
+      </div>
+
+      <div class="card" data-target="2">
+        <div class="icon">&#10071;</div>
+        <h4><a class="nav-link" href="report.html" id="report1">Report a Problem</a></h4>
+      </div>
+
+      <div class="card" data-target="3">
+        <div class="icon">&#128269;</div>
+        <h4><a class="nav-link" href="tracking.html" id="report2">Track Status</a></h4>
+      </div>
+
+      <div class="card" data-target="0">
+        <div class="icon">&#128722;</div>
+        <h4><a class="nav-link" href="disposable.html" id="report3">Buy Disposable Products</a></h4>
+      </div>
+<div class="quote">🌿 “Cleanliness is not just a campaign — <br> it's our collective responsibility.”</div>
+       
+    </div>
+  </section>
+ <br>
+ <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-section about">
+      <h3>Global Sanitation Portal</h3>
+      <p>
+        The Global Sanitation Portal is a citizen-driven initiative designed to promote
+        cleaner, safer, and more sustainable communities. Through collective reporting,
+        awareness, and action, we aim to make India a model for environmental cleanliness.
+      </p>
+    </div>
+
+    <div class="footer-section quick-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Report a Problem</a></li>
+        <li><a href="#">Track Status</a></li>
+        <li><a href="#">Our Agenda</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:info@globalsanitation.gov.in">info@globalsanitation.gov.in</a></p>
+      <p>Helpline: 1800-200-9988</p>
+      <p>Department of Sanitation and Cleanliness<br>Government of India</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Global Sanitation Portal | Developed in support of the Swachh Bharat Mission</p>
+  </div>
+</footer>
+
+
+         
+
+<script>
+function toggleText(card) {
+  card.classList.toggle("active");
+}
+</script>
+
+
+ 
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>

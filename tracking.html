@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Problem Tracking Status</title>
+  <link rel="stylesheet" href="tracking.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Problem Tracking Status</h1>
+    <p>Your complaint is being processed by the authorities. Track its progress below 👇</p>
+
+    <div class="status-container">
+      <div class="status-step" id="step1">
+        <div class="circle">1</div>
+        <div class="label">Your problem has been reported</div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="status-step" id="step2">
+        <div class="circle">2</div>
+        <div class="label">Your problem has been approved by the authorities</div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="status-step" id="step3">
+        <div class="circle">3</div>
+        <div class="label">Your problem is being resolved<br><small>(It takes around 5-7 working days, please be patient)</small></div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="status-step" id="step4">
+        <div class="circle">4</div>
+        <div class="label">Your problem has been resolved</div>
+      </div>
+    </div>
+
+    <button id="nextBtn">Next Status</button>
+  </div>
+
+  <script src="tracking.js"></script>
+</body>
+</html>
